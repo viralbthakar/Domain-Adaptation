@@ -1,0 +1,26 @@
+name: tf-2.3
+channels:
+    - conda-forge
+dependencies:
+    - python=3.6
+    - numpy
+    - matplotlib
+    - jupyter
+    - opencv
+    - pillow
+    - scikit-learn
+    - scikit-image
+    - scipy
+    - h5py
+    - eventlet
+    - flask-socketio
+    - seaborn
+    - pandas
+    - imageio
+    - pydot
+    - graphviz
+    - pip:
+        - moviepy
+        - tensorflow-gpu==2.3.0
+        - keras
+        - keras-tuner
